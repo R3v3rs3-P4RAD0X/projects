@@ -1,3 +1,5 @@
+#!/bin/bash
+
 OS_NAME=`/bin/cat /etc/os-release | grep PRETTY_NAME | sed 's/\"//g' | sed 's/.*=//g'`
 USER_NAME=$(whoami)
 PACKAGES=`pacman -Qq | wc -l`
