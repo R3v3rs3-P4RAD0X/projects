@@ -1,2 +1,3 @@
 go/discord-bot/secrets.json
 */node_modules/*
+node/discord-bot/config.js
