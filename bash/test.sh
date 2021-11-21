@@ -1,0 +1,1 @@
+curl -i $(/bin/cat $HOME/projects/radio.json | grep "link" | awk '{print $2}' | sed 's/"//g')
